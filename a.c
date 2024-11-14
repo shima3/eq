@@ -7,9 +7,9 @@ void f(int n, int a[]){
   int i=1;
   while(i<n){
     if(min>a[i])
-      min=a[i];
+      max=a[i];
     if(max<a[i])
-      min=a[i];
+      max=a[i];
     sum=sum+a[i];
     i=i+1;
   }
